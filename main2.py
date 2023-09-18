@@ -5,12 +5,12 @@
 
 import math
 
-sum = int(input("Введите сумму чисел: "))
-mult = int(input("Введите произведение чисел: "))
-dis = sum * sum - 4 * mult
-if dis < 0:
-    x = sum / 2
+user_summ = int(input("Введите сумму чисел: "))
+user_mult = int(input("Введите произведение чисел: "))
+discriminant = user_summ * user_summ - 4 * user_mult
+if discriminant < 0:
+    first_number = user_summ / 2
 else:
-    x = (sum + (math.sqrt(dis))) / 2
-y = sum - x
-print(f"Первое число {x}, второе число {y}")
+    first_number = (user_summ + (math.sqrt(discriminant))) / 2
+second_number = user_summ - first_number
+print(f"Первое число {first_number}, второе число {second_number}")

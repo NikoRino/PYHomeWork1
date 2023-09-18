@@ -3,10 +3,10 @@
 # повернуты вверх одной и той же стороной.
 # Выведите минимальное количество монет, которые нужно перевернуть
 
-n = int(input("Введите общее количество монет: "))
+user_coin = int(input("Введите общее количество монет: "))
 count = 1
-min = n // 2
-while min > count:
+min_coin = user_coin // 2
+while min_coin > count:
     print(count, end=" или ")
     count = count + 1
-print(min)
+print(min_coin)
