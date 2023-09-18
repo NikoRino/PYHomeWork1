@@ -5,7 +5,6 @@
 
 import math
 
-
 sum = int(input("Введите сумму чисел: "))
 mult = int(input("Введите произведение чисел: "))
 dis = sum * sum - 4 * mult
