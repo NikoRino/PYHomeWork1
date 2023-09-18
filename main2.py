@@ -14,4 +14,4 @@ if dis < 0:
 else:
     x = (sum + (math.sqrt(dis))) / 2
 y = sum - x
-print(x, y)
+print(f"Первое число {x}, второе число {y}")
